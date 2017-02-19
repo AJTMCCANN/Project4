@@ -1,0 +1,93 @@
+/* CSS for the starting page */
+
+.overlay
+{
+   background-color: rgba(121, 234, 144, 1);
+   position: absolute; 
+   top: 0; 
+   left: 0;
+   width: 100%; 
+   height: 100%;
+   z-index: 0;
+   text-align: center;
+}
+
+.overlay h1 {
+	font-size: 5em;
+	margin-top: 200px;
+	color: white;
+}
+
+.overlay button {
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-top: 85px;
+}
+
+.overlay button:focus {
+	outline: 0;
+}
+
+.overlay input {
+	display: block;
+	margin: 85px auto 0;
+	border-radius: 5px;
+	height: 1.5em;
+	text-align: center;
+	width: 190px;
+	font-weight: bold;
+}
+
+.overlay input:focus {
+	outline: 0;
+}
+
+/* CSS for game board */
+
+.boxes .hover-o {
+    background-image: url(../img/o.svg)
+}
+
+.boxes .hover-x {
+    background-image: url(../img/x.svg)
+}
+
+#player_name1, 
+#player_name2 {
+	font-weight: bold;
+	color: black;
+}
+
+/* CSS for win page */
+
+.overlay button.new-game {
+	margin-top: 400px;
+}
+
+#message {
+	margin-top: 230px;
+	font-weight: bold;
+	font-size: 6em;
+	color: black;
+}
+
+.o-win {
+	background-color: rgba(255, 160, 0, 1);
+	background-image: url("../img/o.svg");
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+	background-position: 50% 535px;
+}
+
+.x-win {
+	background-color: rgba(54, 136, 195, 1);
+	background-image: url("../img/x.svg");
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+	background-position: 50% 535px;
+}
+
+.draw {
+	background-color: rgba(121, 234, 144, 1);
+}
